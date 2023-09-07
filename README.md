@@ -20,3 +20,7 @@ https://bn2k36i3gi.execute-api.us-west-2.amazonaws.com/getPeople
   - requires name and age input and outputs an updated object
 - /delete (handleDeletePeople / handleDeletePeople/id)
   - requires id, name and age and outputs statusCode 200
+
+### References and Credits
+
+- I USED CHAT GPT TO HELP ME WRITE THE TESTS
