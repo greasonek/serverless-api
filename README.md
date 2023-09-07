@@ -4,7 +4,11 @@
 
 ### Root URL
 
-https://us-west-2.console.aws.amazon.com/apigateway/home?region=us-west-2#/apis/bn2k36i3gi/resources/4feynw
+https://bn2k36i3gi.execute-api.us-west-2.amazonaws.com/getPeople
+
+### UML
+
+![UML](Screenshot%202023-08-31%20at%209.37.27%20PM.png)
 
 ### Routes
 
@@ -15,4 +19,4 @@ https://us-west-2.console.aws.amazon.com/apigateway/home?region=us-west-2#/apis/
 - /put (handlePutPeople / handlePutPeople/id)
   - requires name and age input and outputs an updated object
 - /delete (handleDeletePeople / handleDeletePeople/id)
-  - requires id, name and age and outputs statusCode 200``
+  - requires id, name and age and outputs statusCode 200
